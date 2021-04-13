@@ -60,8 +60,10 @@ C:\Users\Codebee Nepal-\source\repos\ThermalPrinter\ThermalPrinter\bin\Microsoft
 C:\Users\Codebee Nepal-\source\repos\ThermalPrinter\ThermalPrinter\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\Codebee Nepal-\source\repos\ThermalPrinter\ThermalPrinter\bin\Neodynamic.SDK.ThermalLabel.dll
 C:\Users\Codebee Nepal-\source\repos\ThermalPrinter\ThermalPrinter\bin\Neodynamic.SDK.ThermalLabel.WebPrinting.dll
+C:\Users\Codebee Nepal-\source\repos\ThermalPrinter\ThermalPrinter\bin\Neodynamic.SDK.WebClientPrint.dll
 C:\Users\Codebee Nepal-\source\repos\ThermalPrinter\ThermalPrinter\bin\Newtonsoft.Json.dll
 C:\Users\Codebee Nepal-\source\repos\ThermalPrinter\ThermalPrinter\bin\SkiaSharp.dll
+C:\Users\Codebee Nepal-\source\repos\ThermalPrinter\ThermalPrinter\bin\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\Codebee Nepal-\source\repos\ThermalPrinter\ThermalPrinter\bin\System.Text.Encoding.CodePages.dll
 C:\Users\Codebee Nepal-\source\repos\ThermalPrinter\ThermalPrinter\bin\System.Web.Helpers.dll
 C:\Users\Codebee Nepal-\source\repos\ThermalPrinter\ThermalPrinter\bin\System.Web.Mvc.dll
@@ -72,6 +74,8 @@ C:\Users\Codebee Nepal-\source\repos\ThermalPrinter\ThermalPrinter\bin\System.We
 C:\Users\Codebee Nepal-\source\repos\ThermalPrinter\ThermalPrinter\bin\System.Web.WebPages.Razor.dll
 C:\Users\Codebee Nepal-\source\repos\ThermalPrinter\ThermalPrinter\bin\WebGrease.dll
 C:\Users\Codebee Nepal-\source\repos\ThermalPrinter\ThermalPrinter\bin\SkiaSharp.xml
+C:\Users\Codebee Nepal-\source\repos\ThermalPrinter\ThermalPrinter\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Codebee Nepal-\source\repos\ThermalPrinter\ThermalPrinter\bin\System.Text.Encoding.CodePages.xml
 C:\Users\Codebee Nepal-\source\repos\ThermalPrinter\ThermalPrinter\bin\System.Web.Helpers.xml
 C:\Users\Codebee Nepal-\source\repos\ThermalPrinter\ThermalPrinter\bin\System.Web.Mvc.xml
 C:\Users\Codebee Nepal-\source\repos\ThermalPrinter\ThermalPrinter\bin\System.Web.Optimization.xml
@@ -82,7 +86,6 @@ C:\Users\Codebee Nepal-\source\repos\ThermalPrinter\ThermalPrinter\bin\System.We
 C:\Users\Codebee Nepal-\source\repos\ThermalPrinter\ThermalPrinter\bin\Newtonsoft.Json.xml
 C:\Users\Codebee Nepal-\source\repos\ThermalPrinter\ThermalPrinter\bin\Antlr3.Runtime.pdb
 C:\Users\Codebee Nepal-\source\repos\ThermalPrinter\ThermalPrinter\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Codebee Nepal-\source\repos\ThermalPrinter\ThermalPrinter\obj\Debug\ThermalPrinter.csprojAssemblyReference.cache
 C:\Users\Codebee Nepal-\source\repos\ThermalPrinter\ThermalPrinter\obj\Debug\ThermalPrinter.csproj.CoreCompileInputs.cache
 C:\Users\Codebee Nepal-\source\repos\ThermalPrinter\ThermalPrinter\obj\Debug\ThermalPrinter.csproj.CopyComplete
 C:\Users\Codebee Nepal-\source\repos\ThermalPrinter\ThermalPrinter\obj\Debug\ThermalPrinter.dll

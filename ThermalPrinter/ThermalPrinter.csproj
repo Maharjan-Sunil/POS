@@ -52,14 +52,20 @@
     <Reference Include="Neodynamic.SDK.ThermalLabel.WebPrinting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0630b9b3415848af, processorArchitecture=MSIL">
       <HintPath>..\packages\Neodynamic.SDK.ThermalLabel.WebPrinting.10.0.0\lib\netstandard2.0\Neodynamic.SDK.ThermalLabel.WebPrinting.dll</HintPath>
     </Reference>
+    <Reference Include="Neodynamic.SDK.WebClientPrint, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Neodynamic.SDK.WebClientPrint.6.0.0\lib\netstandard2.0\Neodynamic.SDK.WebClientPrint.dll</HintPath>
+    </Reference>
     <Reference Include="SkiaSharp, Version=1.60.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
       <HintPath>..\packages\SkiaSharp.1.60.0\lib\net45\SkiaSharp.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
-    <Reference Include="System.Text.Encoding.CodePages, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Text.Encoding.CodePages.4.4.0\lib\net461\System.Text.Encoding.CodePages.dll</HintPath>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.5.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.6.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.CodePages, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encoding.CodePages.4.6.0\lib\net461\System.Text.Encoding.CodePages.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -134,10 +140,14 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\GetWebPrintJobController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\InvoiceController.cs" />
+    <Compile Include="Controllers\WebClientPrintAPIController.cs" />
+    <Compile Include="Controllers\PrintESCPOSController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Invoice.cs" />
+    <Compile Include="Models\DataManager\InvoiceDataManager.cs" />
+    <Compile Include="Models\ViewModel\InvoiceModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -176,13 +186,15 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\PrintESCPOS\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\GetWebPrintJob\" />
+    <Folder Include="Views\Invoice\" />
+    <Folder Include="Views\WebClientPrintAPI\" />
+    <Folder Include="Views\WebClientPrinter\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

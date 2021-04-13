@@ -1,12 +1,15 @@
 ﻿using Neodynamic.SDK.Printing;
-using System;
-using System.Collections.Generic;
-using System.Data;
 using System.Web.Mvc;
-using ThermalPrinter.Models;
+using ThermalPrinter.Models.DataManager;
 
 public class GetWebPrintJobController : Controller
 {
+    private readonly InvoiceDataManager _invoiceDataManager;
+
+    public GetWebPrintJobController()
+    {
+        _invoiceDataManager = new InvoiceDataManager();
+    }
 
     [AllowAnonymous]
     public void Index(int? orderId = 0)
@@ -82,7 +85,7 @@ public class GetWebPrintJobController : Controller
         tLabel.Items.Add(txt2);
         //tLabel.Items.Add(txt3);
         //tLabel.Items.Add(txt4);
-        tLabel.DataSource = GetInvoiceByOrderId(1);
+        tLabel.DataSource = _invoiceDataManager.GetInvoiceByOrderId(1);
 
 
         //TextItem title = new TextItem(0.5, 0.5, 2.5, 0.5, "Ismartmandu");
@@ -108,34 +111,4 @@ public class GetWebPrintJobController : Controller
         return tLabel;
     }
 
-
-    private List<Invoice> GetInvoiceByOrderId(int order)
-    {
-        var InvoiceList = new List<Invoice>();
-        try
-        {
-            var invoice = new Invoice
-            {
-                Items = "Momo",
-                Quantity = 2,
-                Rate = 100,
-                Total = 2 * 100
-            };
-
-            var invoice1 = new Invoice
-            {
-                Items = "Momo Veg",
-                Quantity = 2,
-                Rate = 100,
-                Total = 2 * 100
-            };
-            InvoiceList.Add(invoice);
-            //InvoiceList.Add(invoice1);
-        }
-        catch(Exception ex)
-        {
-
-        }
-        return InvoiceList;
-    }
 }

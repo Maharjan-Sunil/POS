@@ -179,7 +179,6 @@ D:\Internal\POS\ThermalPrinter\bin\System.Web.WebPages.Razor.xml
 D:\Internal\POS\ThermalPrinter\bin\Newtonsoft.Json.xml
 D:\Internal\POS\ThermalPrinter\bin\Antlr3.Runtime.pdb
 D:\Internal\POS\ThermalPrinter\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\Internal\POS\ThermalPrinter\obj\Debug\ThermalPrinter.csprojAssemblyReference.cache
 D:\Internal\POS\ThermalPrinter\obj\Debug\ThermalPrinter.csproj.CoreCompileInputs.cache
 D:\Internal\POS\ThermalPrinter\obj\Debug\ThermalPrinter.csproj.CopyComplete
 D:\Internal\POS\ThermalPrinter\obj\Debug\ThermalPrinter.dll
